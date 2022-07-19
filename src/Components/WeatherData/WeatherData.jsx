@@ -21,15 +21,15 @@ const WeatherData = () => {
         console.log(jsonData);
         // Do something with response data.
       });
-
-    useEffect(() => {
-      GetTides();
-
-      console.log("stuff");
-    }, []);
-
-    return <div>WeatherData</div>;
   };
+
+  useEffect(() => {
+    GetTides();
+
+    console.log("stuff");
+  }, []);
+
+  return <div>WeatherData</div>;
 };
 
 export default WeatherData;
