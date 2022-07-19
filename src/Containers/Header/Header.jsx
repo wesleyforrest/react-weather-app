@@ -6,7 +6,7 @@ const Header = () => {
     <div className="header">
       <h1 className="header__title">Wes's Wonderful Weather</h1>
       <p className="header__description">
-        The best app on the WWW for all your maritime leasure pursuits!
+        The best app on the WWW for all your maritime leisure pursuits!
       </p>
     </div>
   );
