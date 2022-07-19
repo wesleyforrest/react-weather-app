@@ -24,9 +24,9 @@ const WeatherData = () => {
 
     useEffect(() => {
       GetTides();
-    });
 
-    console.log(WeatherData);
+      console.log("stuff");
+    }, []);
 
     return <div>WeatherData</div>;
   };

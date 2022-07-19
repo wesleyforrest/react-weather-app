@@ -4,6 +4,7 @@ import LocationMap from "./Containers/LocationMap/LocationMap";
 import WeatherData from "./Components/WeatherData/WeatherData";
 
 function App() {
+  console.log("working");
   return (
     <div className="App">
       <Header />
