@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./LocationService.scss";
 
 const LocationService = () => {
   const [lat, setLat] = useState(null);
@@ -25,7 +26,9 @@ const LocationService = () => {
 
   return (
     <div className="location">
-      <button onClick={getLocation}>Get Location</button>
+      <button className="location__button" onClick={getLocation}>
+        Get Location
+      </button>
       <h1>Coordinates</h1>
       <p>{status}</p>
       {lat && <p>Latitude: {lat}</p>}
