@@ -19,16 +19,20 @@ const WeatherData = () => {
       .then((response) => response.json())
       .then((jsonData) => {
         console.log(jsonData);
+
+        const weatherInfo = () => {
+          const weather = jsonData;
+          return weatherInfo;
+        };
         // Do something with response data.
       });
   };
 
   useEffect(() => {
     GetTides();
-
-    console.log("stuff");
   }, []);
 
+  //console.log(weatherInfo());
   return <div>WeatherData</div>;
 };
 
