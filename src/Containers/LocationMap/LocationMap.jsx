@@ -6,7 +6,7 @@ import Map from "../../Assets/images/solent.jpeg";
 const LocationMap = () => {
   return (
     <div>
-      <img src={Map} alt="placeholder-image" />
+      <img src="map" alt="placeholder-image" />
     </div>
   );
 };
