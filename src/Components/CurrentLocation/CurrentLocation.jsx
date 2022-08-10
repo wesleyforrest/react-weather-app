@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./CurrentLocation.scss";
 
 const CurrentLocation = () => {
   const [lat, setLat] = useState(null);
@@ -25,10 +26,11 @@ const CurrentLocation = () => {
 
   return (
     <div className="location">
+      <h2>Where am I now?</h2>
       <button className="location__button" onClick={getLocation}>
         Get Location
       </button>
-      <h1>Coordinates</h1>
+      <h4>Coordinates</h4>
       <p>{status}</p>
       {lat && <p>Latitude: {lat}</p>}
       {lng && <p>Longitude: {lng}</p>}
