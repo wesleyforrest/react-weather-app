@@ -32,9 +32,6 @@ const LocationCard = (props) => {
         <div className="flip-card-weather">
           <h2>Weather Info</h2>
         </div>
-        <div className="flip-card-tide">
-          <h2>Tide info</h2>
-        </div>
       </div>
     </div>
   );

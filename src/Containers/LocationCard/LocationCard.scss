@@ -1,6 +1,6 @@
 .flip-card {
   background-color: transparent;
-  width: 300px;
+  width: 350px;
   height: 500px;
   perspective: 1000px;
   margin: 20px;
@@ -21,8 +21,7 @@
 }
 
 .flip-card-front,
-.flip-card-weather,
-.flip-card-tide {
+.flip-card-weather {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -36,7 +35,7 @@
   border: 2px solid black;
   padding: 20px;
   height: 420px;
-  width: 200px;
+  width: 250px;
   margin: 20px;
 
   &__image {

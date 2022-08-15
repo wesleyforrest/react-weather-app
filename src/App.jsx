@@ -1,4 +1,4 @@
-import "./App.css";
+import "./App.scss";
 import Header from "./Containers/Header/Header";
 import SailingLocations from "./Containers/SailingLocations/SailingLocations";
 import CurrentLocation from "./Components/CurrentLocation/CurrentLocation";
@@ -10,7 +10,9 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <CurrentLocation />
+      <div className="current">
+        <CurrentLocation />
+      </div>
       <LocationCardContainer />
       <Footer />
     </div>
